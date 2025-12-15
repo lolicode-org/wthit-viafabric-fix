@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "wthit-viafabric-fix",
+	"version": "${version}",
+	"name": "wthit-viafabric-fix",
+	"description": "Fix wthit server-side mod breaking client connected via viafabric",
+	"authors": [
+		"KoishiMoe"
+	],
+	"contact": {
+		"sources": "https://github.com/lolicode-org/wthit-viafabric-fix"
+	},
+	"license": "The Unlicense",
+	"icon": "assets/wthit-viafabric-fix/icon.png",
+	"environment": "server",
+	"entrypoints": {
+		"main": [
+			"org.lolicode.wthitvff.Wthitviafabricfix"
+		]
+	},
+	"mixins": [
+		"wthit-viafabric-fix.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "*",
+		"java": ">=21",
+		"wthit": "*",
+		"viafabric": "*"
+	}
+}

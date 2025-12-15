@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "org.lolicode.wthitvff.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlockDataRequestPlayC2SPacketMixin",
+    "EntityDataRequestPlayC2SPacketMixin",
+    "PlayerListMixin",
+    "RawDataRequestContextPlayC2SPacketMixin",
+    "ServerGamePacketListenerImplMixin",
+    "TypedDataRequestContextPlayC2SPacketMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
