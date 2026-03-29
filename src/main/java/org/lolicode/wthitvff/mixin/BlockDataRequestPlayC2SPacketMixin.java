@@ -10,7 +10,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(value = BlockDataRequestPlayC2SPacket.class, remap = false)
 public class BlockDataRequestPlayC2SPacketMixin {
     @Inject(
-            method = "lambda$common$2",
+            method = "lambda$common$0",
             at = @At("HEAD"),
             cancellable = true
     )
